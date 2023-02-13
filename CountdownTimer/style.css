@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 *{
     box-sizing: border-box;
@@ -17,6 +19,7 @@ body{
 
 }
 
+
 .h1{
     font-size: 4rem;
     font-weight: normal;
@@ -24,11 +27,13 @@ body{
 
 }
 
+
 .countdown-container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 
 .big-text{
     font-weight: bold;
