@@ -14,7 +14,7 @@ function countdown(){
     const totalSeconds = new Date(newYearsDate-currentDate)/1000;
     const days = Math.floor(totalSeconds/3600/24);
     const hours = Math.floor(totalSeconds/3600)%24;
-    const minutes = Math.floor(totalSeconds/60)%60;
+    const mins = Math.floor(totalSeconds/60)%60;
     const seconds = Math.floor(totalSeconds)%60;
 
 
