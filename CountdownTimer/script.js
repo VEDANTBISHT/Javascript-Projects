@@ -6,9 +6,10 @@ const secondsE1 = document.getElementById('seconds');
 
 
 
-const placement = '1 jan 2024';
+const placement = '2 apr 2023';
 
 function countdown(){
+
     const newYearsDate = new Date(placement);
     const currentDate = new Date();
     const totalSeconds = new Date(newYearsDate-currentDate)/1000;
@@ -18,12 +19,16 @@ function countdown(){
     const seconds = Math.floor(totalSeconds)%60;
 
 
-    daysE1.innerHTML = days;
-    hoursE1.innerHTML = hours;
-    minsE1.innerHTML = mins;
-    secondsE1.innerHTML = seconds;
+    daysE1.innerHTML = formatTime(days);
+    hoursE1.innerHTML = formatTime(hours);
+    minsE1.innerHTML = formatTime(mins);
+    secondsE1.innerHTML = formatTime(seconds);
 
     
+}
+
+function formatTime(time){
+    return time < 10 ? (`o${time}`) : time;
 }
 //initial call
 
