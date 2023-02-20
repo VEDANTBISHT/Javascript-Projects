@@ -47,6 +47,10 @@ ul li{
     font-size: 1.2;
 }
 
+ui li label{
+    cursor: pointer;
+}
+
 button{
     background-color: #8e44ad;
     color: white;
@@ -61,4 +65,9 @@ button{
 
 button:hover{
     background-color: #732d91;
+}
+
+button:focus{
+    outline: none;
+    background-color: #5e3370;
 }
