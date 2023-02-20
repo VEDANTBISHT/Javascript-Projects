@@ -8,7 +8,7 @@ const quizData =[
         correct: 'a'
     },
     {
-        question: 'the speed of lightis?',
+        question: 'the speed of light is?',
         a: '400000 km/sec',
         b: '300000 km/sec',
         c: '200000 km/sec',
