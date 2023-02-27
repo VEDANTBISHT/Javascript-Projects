@@ -1,13 +1,9 @@
 //javascript files for countdown timer
 
-
-
-
 const daysE1 = document.getElementById('days');
 const hoursE1 = document.getElementById('hours');
 const minsE1 = document.getElementById('mins');
 const secondsE1 = document.getElementById('seconds');
-
 
 
 //time to put for countdown
