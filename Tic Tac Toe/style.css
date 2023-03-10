@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cell-size:100px;
+
+}
+
 body {
     margin: 0;
 }
@@ -16,8 +21,9 @@ body {
 }
 
 .cell{
-    width: 100px;
-    height: 100px;
+    width: var(--cell-size);
+    height:var(--cell-size);
     background-color: black;
+    border: 1px solid white;
 
 }
