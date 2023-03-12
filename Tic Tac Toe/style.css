@@ -26,8 +26,10 @@ body {
 .cell{
     width: var(--cell-size);
     height:var(--cell-size);
-    
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -36,6 +38,7 @@ body {
 .cell:nth-child(3){
     border-top: none !important;
 }
+
 .cell:last-child,
 .cell:nth-child(8),
 .cell:nth-child(7){
@@ -48,5 +51,14 @@ body {
 
 .cell:nth-child(3n+3){
     border-right: none;
+}
+
+.cell.x::before,
+.cell.x::after{
+    content:'';
+    width: calc(var(--mark-size)*.15);
+    height: var(--mark-size);
+    background-color: black !important;
+
 }
 
