@@ -59,7 +59,6 @@ body {
     width: calc(var(--mark-size)*.15);
     height: var(--mark-size);
     background-color: black;
-
 }
 
 .cell.x::before{
