@@ -58,7 +58,15 @@ body {
     content:'';
     width: calc(var(--mark-size)*.15);
     height: var(--mark-size);
-    background-color: black !important;
+    background-color: black;
 
+}
+
+.cell.x::before{
+    transform: rotate(45deg);
+}
+
+.cell.x::after{
+    transform: rotate(-45deg);
 }
 
