@@ -3,6 +3,17 @@
 
     "description": "A color picker extension",
 
-    "version" 
-    :
+    "version" : "1.0",
+
+    "manifest-version": 3,
+
+    "background" :{
+
+        "service_worker":"background.js"
+    },
+
+    "icons":{
+        "16"
+    }
+    
 }
