@@ -1,19 +1,11 @@
 {
-    "name": "Color Picker",
+    "name": "Poor Jokes",
 
-    "description": "A color picker extension",
+    "description": "PJ",
 
     "version" : "1.0",
 
-    "manifest-version": 3,
+    "manifest-version": 2
 
-    "background" :{
-
-        "service_worker":"background.js"
-    },
-
-    "icons":{
-        "16" ""
-    }
-    
+ 
 }
