@@ -10,7 +10,7 @@ class Node {
     this.value = value;
     this.visited = false;
   }
-
+//define draw class
   draw() {
     ctx.beginPath();
     ctx.arc(this.x, this.y, 30, 0, 2 * Math.PI);
