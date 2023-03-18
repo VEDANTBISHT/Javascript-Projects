@@ -1,11 +1,13 @@
 {
+    "$schema": "http://json-schema.org/draft-04/schema",
+
     "name": "Poor Jokes",
 
     "description": "PJ",
 
     "version" : "1.0",
 
-    "manifest-version": 2
+    "manifest-version": "2"
 
- 
+     
 }
