@@ -24,7 +24,7 @@ class Node {
   }
 }
 
-// Define graph class
+// Define graph class.
 class Graph {
   constructor() {
     this.nodes = [];
