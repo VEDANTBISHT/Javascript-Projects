@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  #visualization {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  canvas {
+    border: 1px solid #000;
+  }
+  
+  button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
