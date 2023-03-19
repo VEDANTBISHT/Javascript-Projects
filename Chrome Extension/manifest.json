@@ -1,13 +1,14 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "name": "PJ",
+    "version": "1.0.0",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "defult_icon":"logo.png"
+    },
+    "icons":{
+        "128":"logo.png"
+    },
+    "permission":["activetab"]
 
-    "name": "Poor Jokes",
-
-    "description": "PJ",
-
-    "version" : "1.0",
-
-    "manifest-version": "2"
-
-     
 }
