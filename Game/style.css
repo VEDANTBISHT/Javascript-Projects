@@ -16,11 +16,14 @@ body{
     border-radius: 7px;
     width: 400px;
 }
-.wrapper header {
+.wrapper header{
     color: #43AFFC;
     font-size: 21px;
     font-weight: 500
-    /* -----------------------------------error-------------------not resolved------------------------- */
+    /* -------------------------------------------error-------------------not resolved------------------------- */
     padding: 16px 15px;
     border-bottom: 1px solid #bfbfbf;
+    display: flex;
+    align-item: center;
+    border-buttom: 1px solid #bfbfbf;
 }
