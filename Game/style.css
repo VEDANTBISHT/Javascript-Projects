@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background: #fff;
+    border-radius: 7px;
+    width: 400px;
+}
+.wrapper header {
+    color: #43AFFC;
+    font-size: 21px;
+    font-weight: 500
+    /* -----------------------------------error-------------------not resolved------------------------- */
+    padding: 16px 15px;
+    border-bottom: 1px solid #bfbfbf;
+}
