@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: #43AFFC;
 }
 .wrapper{
     background: #fff;
@@ -19,11 +20,60 @@ body{
 .wrapper header{
     color: #43AFFC;
     font-size: 21px;
-    font-weight: 500
-    /* -------------------------------------------error not resolved------------------------- */
+    font-weight: 500;
     padding: 16px 15px;
-    border-bottom: 1px solid #bfbfbf;
     display: flex;
-    align-item: center;
-    border-buttom: 1px solid #bfbfbf;
+    align-items: center;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+header i{
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.wrapper .input-part{
+    margin: 20px 25px 30px;
+}
+
+.input-part :where(input,button,){
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none !important;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.input-part input{
+    text-align: center;
+    border: 1px solid #bfbfbf;
+    margin: 25px 0;
+
+}
+
+
+
+.input-part .separator{
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.separator ::before{
+    content: "or";
+    background: #fff;
+    padding: 0 15px;
+}
+
+.input-part button{
+    color: #fff;
+    cursor: pointer;
+    background: #43AFFC;
 }
