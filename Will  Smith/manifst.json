@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "willsmith",
+    "name": "Anya",
     "version":"1.0.0",
     "content_scripts": [
         {
