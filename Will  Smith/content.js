@@ -14,4 +14,5 @@ const imgs =document.getElementsByTagName("img");
 for(let i=0; i<imgs.length; i++) {
     const randomImg = Math.floor(Math.random() * Anya.length)
     imgs[i].src =Anya[randomImgImg];
+    
 }
