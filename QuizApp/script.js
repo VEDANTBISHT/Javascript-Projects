@@ -15,6 +15,7 @@ const quizData =[
         d: '100000 km/sec',
         correct: 'a'
     },
+    
     {
         question:'what is 2*2?',
         a: '4',
