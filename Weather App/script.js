@@ -71,6 +71,7 @@ function weatherDetails(info){
             wIcon.src = "icons/rain.svg";
         }
         
+        
         weatherPart.querySelector(".temp .numb").innerText = Math.floor(temp);
         weatherPart.querySelector(".weather").innerText = description;
         weatherPart.querySelector(".location span").innerText = `${city}, ${country}`;
